@@ -25,6 +25,10 @@
   <ItemGroup>
     <Content Include="azuredeploy.json" />
     <Content Include="azuredeploy.parameters.json" />
+    <None Include="data\dc1Vm.json" />
+    <None Include="data\dc2Vm.json" />
+    <None Include="data\deployPrimaryAD.json" />
+    <None Include="data\promoteSecondDC.json" />
     <None Include="Deployment.targets">
       <Visible>False</Visible>
     </None>
